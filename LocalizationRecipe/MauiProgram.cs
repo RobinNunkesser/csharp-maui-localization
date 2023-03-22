@@ -16,7 +16,6 @@ public static class MauiProgram
         this MauiAppBuilder mauiAppBuilder
     )
     {
-        mauiAppBuilder.Services.AddLocalization();
         mauiAppBuilder.Services.AddLogging();
         return mauiAppBuilder;
     }
